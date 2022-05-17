@@ -1,0 +1,7 @@
+ignorado.txt
+*.exe
+*.obj
+*.tds
+*.vscode
+vscode/*.json
+tempCodeRunnerFile.c
