@@ -9,6 +9,8 @@ Console.WriteLine("Ingrese otro numero");
 string numero2 = Console.ReadLine();
 Console.WriteLine("Ingrese otro numero");
 string numero3 = Console.ReadLine();
+Console.WriteLine("Ingrese otro numero");
+string numero4 = Console.ReadLine();
 
 double cuadrado = Cuadrado(Convert.ToDouble(numero2));
 double resultado = Convert.ToDouble(numero1) + cuadrado + Convert.ToDouble(numero3);
