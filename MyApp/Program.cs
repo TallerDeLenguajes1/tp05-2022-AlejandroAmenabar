@@ -4,5 +4,9 @@ Console.WriteLine("Hola mundo!");
 Console.WriteLine("A ver si sale");
 
 Console.WriteLine("Ingrese un numero");
-string texto = Console.ReadLine();
-Console.WriteLine("Ud escribio" + texto);
+string numero1 = Console.ReadLine();
+Console.WriteLine("Ingrese otro numero");
+string numero2 = Console.ReadLine();
+
+int resultado = Convert.ToInt32(numero1) + Convert.ToInt32(numero2);
+Console.WriteLine("La suma de los dos numeros es "+ resultado);
