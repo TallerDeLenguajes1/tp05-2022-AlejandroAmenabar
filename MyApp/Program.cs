@@ -11,4 +11,5 @@ Console.WriteLine("Ingrese otro numero");
 string numero3 = Console.ReadLine();
 double cuadrado = System.Math.Pow(Convert.ToDouble(numero2),2);
 double resultado = Convert.ToDouble(numero1) + cuadrado + Convert.ToDouble(numero3);
+
 Console.WriteLine("La suma de los dos numeros es "+ resultado);
