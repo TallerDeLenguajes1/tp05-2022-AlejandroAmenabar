@@ -10,5 +10,5 @@ string numero2 = Console.ReadLine();
 Console.WriteLine("Ingrese otro numero");
 string numero3 = Console.ReadLine();
 
-double resultado = Convert.ToDouble(numero1) + Convert.ToDouble(numero2) + Convert.ToDouble(numero3);
+int resultado = Convert.ToInt32(numero1) + Convert.ToInt32(numero2) + Convert.ToInt32(numero3);
 Console.WriteLine("La suma de los dos numeros es "+ resultado);
