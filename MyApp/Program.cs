@@ -5,6 +5,7 @@ Console.WriteLine("ingrese el numero: ");
 
 int num = Convert.ToInt32(Console.ReadLine());
 int numInvertido = 0;
+Console.WriteLine("El numero ingresado es:  "+num);
 
 while (num>0)
 {
@@ -12,6 +13,5 @@ while (num>0)
     num = num/10;
 }
 
-Console.WriteLine("El numero ingresado es:  "+num);
 Console.WriteLine("El numero ingresado invertido es:  "+numInvertido
 );
