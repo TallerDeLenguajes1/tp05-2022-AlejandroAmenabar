@@ -16,7 +16,7 @@ while (num>0)
 Console.WriteLine("El numero ingresado invertido es:  "+numInvertido
 );*/
 
-/*---Calculadora---*/
+/*---Calculadora V1---*/
 
 int opcion=10;
 int menu=2;
