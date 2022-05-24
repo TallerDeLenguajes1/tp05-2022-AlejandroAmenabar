@@ -1,23 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hola mundo!");
-Console.WriteLine("A ver si sale");
+/*
+Console.WriteLine("Ejercicio 1: invertir numero de N cifras");
+Console.WriteLine("ingrese el numero: ");
 
-Console.WriteLine("Ingrese un numero");
-string numero1 = Console.ReadLine();
-Console.WriteLine("Ingrese otro numero");
-string numero2 = Console.ReadLine();
-Console.WriteLine("Ingrese otro numero");
-string numero3 = Console.ReadLine();
-Console.WriteLine("Ingrese otro numero");
-string numero4 = Console.ReadLine();
+int num = Convert.ToInt32(Console.ReadLine());
+int numInvertido = 0;
+Console.WriteLine("El numero ingresado es:  "+num);
 
-double cuadrado = Cuadrado(Convert.ToDouble(numero2));
-double resultado = Convert.ToDouble(numero1) + cuadrado + Convert.ToDouble(numero3);
-
-Console.WriteLine("La suma de los dos numeros es "+ resultado);
-
-double Cuadrado(double a)
+while (num>0)
 {
-    return System.Math.Pow(a,2);
+    numInvertido = numInvertido *10 + (num%10);
+    num = num/10;
 }
+
+Console.WriteLine("El numero ingresado invertido es:  "+numInvertido);
+*/
+
+/*---Calculadora V2---*/
+
